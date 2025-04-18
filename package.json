@@ -1,0 +1,19 @@
+{
+  "name": "aiora.i18n",
+  "version": "1.0.0",
+  "description": "This is a translation project for Aiora app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "i18n",
+    "inlang"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/filpals/aiora.i18n"
+  },
+  "author": "yancyn@gmail.com",
+  "license": "ISC"
+}
