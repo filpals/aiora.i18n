@@ -1,0 +1,25 @@
+{
+  "name": "aiora.i18n",
+  "version": "1.0.0",
+  "description": "This is a translation project for Aiora app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "paraglide-js compile --project ./project.inlang --outdir ./src\\paraglide",
+    "machine-translate": "inlang machine translate --project project.inlang"
+  },
+  "keywords": [
+    "i18n",
+    "inlang"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/filpals/aiora.i18n"
+  },
+  "author": "yancyn@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@inlang/cli": "^3.0.10",
+    "@inlang/paraglide-js": "2.0.11"
+  }
+}
